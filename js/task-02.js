@@ -14,7 +14,7 @@ function createElem(arr){
   arr
     .map((item) => {
       const listLi = document.createElement("li");
-      listLi.classList.add(item);
+      listLi.classList.add("item");
       listLi.textContent = item;
       items.push(listLi)
     })
